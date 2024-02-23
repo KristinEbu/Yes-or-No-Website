@@ -2,7 +2,7 @@ body {
     font-family: "Comic Sans MS", "Comic Sans";
     text-align: center;
     padding: 150px 0;
-    background-image: url("/docs/assets/images/background.jpg");
+    background-image: url("./assets/images/background.jpg");
     background-size: cover;
     color: #7a5655;
 }
