@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/src/assets/styles/styles.css" />
     <title>Yes or No Website</title>
   </head>
   <body>
     <h1>Do you like Stray Kids?</h1>
-    <img src="/assets/images/thinking gif.gif" alt="3D Thinking GIF" height="250" width="250">
+    <img src="/src/assets/images/thinking gif.gif" alt="3D Thinking GIF" height="250" width="250">
     <p>Choose wisely...</p>
     <button class="button" id="yesButton">Yes</button>
     <button class="button" id="noButton">No</button>
@@ -15,9 +15,9 @@
 
 <script type="text/javascript">
     document.getElementById("yesButton").addEventListener('click', () => {
-        location.href = "/source/yes-page.html";
+      location.href = "/src/yes-page.html";
     });
     document.getElementById("noButton").addEventListener('click', () => {
-        location.href = "/source/no-page.html";
+      location.href = "/src/no-page.html";
     });
 </script>

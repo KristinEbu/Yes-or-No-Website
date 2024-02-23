@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/src/assets/styles/styles.css" />
     <title>Yes Page</title>
   </head>
   <body>
     <h1>Are you sure?</h1>
-    <img src="/assets/images/nervous monkey.gif" alt="Nervous Monkey GIF" height="250" width="250">
+    <img src="/src/assets/images/nervous monkey.gif" alt="Nervous Monkey GIF" height="250" width="250">
     <p class="horizontal-shake">*stares at you intensely*</p>
     <button class="button" id="yesButton">Yes</button>
     <button class="button" id="noButton">No</button>
@@ -19,6 +19,6 @@
     document.getElementById("yesButton").style.top = `${Math.ceil(Math.random() * 90)}%`;
   });
   document.getElementById("noButton").addEventListener("click", () => {
-    location.href = "/source/no-page.html";
+    location.href = "/src/no-page.html";
   });
 </script>
