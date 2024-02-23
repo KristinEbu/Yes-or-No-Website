@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="/src/assets/styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/docs/assets/styles/styles.css" />
     <title>Cookie Page</title>
   </head>
   <body>
-    <img src="/src/assets/images/dancing cat.gif" alt="Dancing Cat GIF" height="150" width="150">
-    <img src="/src/assets/images/cookie.gif" alt="Cookie GIF" height="250" width="250">
-    <img src="/src/assets/images/dancing cat.gif" alt="Dancing Cat GIF" height="150" width="150">
+    <img src="/docs/assets/images/dancing cat.gif" alt="Dancing Cat GIF" height="150" width="150">
+    <img src="/docs/assets/images/cookie.gif" alt="Cookie GIF" height="250" width="250">
+    <img src="/docs/assets/images/dancing cat.gif" alt="Dancing Cat GIF" height="150" width="150">
     <h1>Dance Time!</h1>
     <button class="button" id="confettiButton">Confetti</button>
     <button class="button" id="homeButton">Home</button>
   </body>
 </html>
 
-<script src="/src/assets/scripts/js-confetti.browser.js"></script>
+<script src="/docs/assets/scripts/js-confetti.browser.js"></script>
 <script type="text/javascript">
     const jsConfetti = new JSConfetti();
     document.getElementById("homeButton").addEventListener('click', () => {
-      location.href = "/src/index.html";
+      location.href = "/docs/index.html";
     });
     document.getElementById("confettiButton").addEventListener('click', () => {
       jsConfetti.addConfetti();
